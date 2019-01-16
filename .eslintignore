@@ -1,0 +1,5 @@
+build/*.js
+config/*.js
+src/public/components/mession-card.vue
+src/components/app-header.vue
+static/js/common.js

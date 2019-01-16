@@ -1,0 +1,98 @@
+.el-message{
+    min-width: 5rem!important;
+    box-shadow: 0 0 0!important;
+    border: 1px solid #bdbdbd;
+}
+.el-message__img{
+    // width: .76rem!important;
+    // height: .76rem!important;
+}
+[data-dpr="2"] .el-message__img {
+    width: 60px!important;
+    height: 60px!important;
+}
+[data-dpr="3"] .el-message__img {
+    width: 80px!important;
+    height: 80px!important;
+}
+.el-message__group{
+    height: .5rem!important;
+    line-height: .5rem!important;
+    margin-left: .8rem!important;
+}
+.el-message__group p{
+    @include font-dpr(16px);
+    // font-weight: 200;
+    color: #333!important;
+}
+.el-loading-mask{
+    top: 1.3rem!important;
+}
+.el-loading-spinner .circular{
+    width: 1rem!important;
+    height: 1rem!important;
+}
+.el-loading-text{
+    font-size: 14px!important;
+}
+[data-dpr="2"] .el-loading-text {
+    font-size: 28px!important;
+}
+[data-dpr="3"] .el-loading-text {
+    font-size: 42px!important;
+}
+.el-loading-spinner{
+    margin-top: -1.3rem!important;
+}
+.el-dialog{
+    border-radius: .5rem!important;
+}
+.el-dialog--tiny{
+    top: 35%!important;
+    width: 80%!important;
+}
+.el-dialog__header{
+    padding: 0!important;
+}
+.el-dialog__body{
+    height: 2rem!important;
+    text-align: center;
+    line-height: 1rem;
+    @include font-dpr(16px);
+    color: #333!important;
+}
+.el-dialog__footer{
+    text-align: center!important;
+    border-top: 1px solid #e6e6e6;
+    height: 1.2rem;
+    line-height: 1rem;
+    .el-button {
+        border: 0;
+        @include font-dpr(16px);
+        color: #EEB48E;
+    }
+}
+.el-button--primary{
+    background-color: #fff!important;
+}
+.el-dialog__body{
+    padding: .5rem;
+    .exchange{
+        height: 2.5rem;
+        line-height: 2.5rem;
+    }
+}
+.dialog-footer{
+    button{
+        width: 44%;
+    }
+}
+.el-dialog__footer{
+    padding: .1rem 0 0 0!important;
+}
+.el-tabs__item{
+    color: #333!important;
+}
+.el-tabs__item.is-active{
+    color: #FF6A00!important
+}

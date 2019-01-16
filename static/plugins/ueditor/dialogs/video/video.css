@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+.wrapper{
+    padding-top: 20px;
+}
+.form-control {
+    font-weight: normal;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    font-family: "Microsoft YaHei";
+    display: block;
+    width: 400px;
+    height: 30px;
+    padding: 4px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+.vedio-title{
+    float: left;
+    line-height: 30px;
+    margin-right: 5px;
+    width: 112px;
+    text-align: right;
+}
+.vedio-veiw{
+    width: 345px;
+    height: 258px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+.vedio-detial{
+    margin-top:20px;
+}
+.error-tips{
+    color: #C02643;
+    padding-top: 10px;
+    padding-left: 120px;
+    font-size: 14px;
+}
+.video_iframe{
+    width: 345px;
+    height: 258px;
+    background: #000 url("./vedio.jpg") no-repeat center;
+    background-size: 345px;
+}

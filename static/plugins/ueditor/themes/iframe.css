@@ -1,0 +1,29 @@
+/*可以在这里添加你自己的css*/
+.qqmusic_iframe{
+    position: relative;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #e7e7eb;
+    padding: 9px 6px;
+    overflow: hidden;
+    width: 360px;
+    height: 60px;
+    background: url("./images/icon_qqmusic_audio.png") no-repeat 310px 13px;
+}
+
+.qqmusic_iframe::before {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #000;
+    content: attr(music_name);
+}
+
+.qqmusic_iframe::after {
+    position: absolute;
+    left: 10px;
+    top: 34px;
+    color: #8d8d8d;
+    content: attr(singer);
+}
